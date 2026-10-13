@@ -1,0 +1,45 @@
+.flash-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20rem;
+}
+
+.header {
+    font-size: 2rem;
+    font-weight: 600;
+    color: black;
+}
+
+.controls {
+    display: flex;
+    justify-content: space-between;
+    height: 2.5rem;
+}
+
+.flash-card,
+ .controls {
+    background-color: #eeeeeef1 ;
+    border: 0.2rem solid gray;
+    border-radius: 1rem;
+    width: 30rem;
+
+}
+
+button {
+    background-color: #eeeeeef1;
+    color: black;
+    border: none;
+    border-radius: 1rem;
+    outline: none;
+    width: 7rem;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #05050580;
+}
+
+.hidden {
+    display: none;
+}
